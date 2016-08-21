@@ -69,9 +69,9 @@ original_df = pd.DataFrame.copy(df)
 # embarked is important, but it's non-numeric
 # home.dest may be important, but it's non-numeric
 
-# so what do we do with this data, but ML requires
+# so what do we do with this data, since ML requires
 # numerical data
-# generally what you do: take text column: take set
+# generally what we do is: take text column: take 
 # set of sex.values is going to be female=0, male=1
 # set of home.dest we just assign 0=city1, 1=city2
 #
@@ -132,8 +132,8 @@ df = handle_non_numerical_data(df)
 # and who would not
 #
 # after we've trained, we can then add new data 
-# values to predict whether the outcome would be
-# survive or die
+# values to predict whether the outcome would be:
+# survived or died
 #
 
 # we're doing unsupervised learning, so we don't
