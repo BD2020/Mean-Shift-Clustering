@@ -44,11 +44,7 @@ home.dest Home/Destination
 # Q1: did they survive or not
 # Q2: will K means sep two groups into live / death
 
-
 cwd = os.getcwd()
-#print("Get CWD", cwd)
-# os.chdir('C:\\ML_Data\\_Titanic')
-# C:\ML_Data\_Titanic\sentdex
 #
 os.chdir("C:\\ML_Data\\_Titanic")
 
