@@ -2,7 +2,7 @@
 # Analyze Titanic data using the MeanShift algorithms
 # from sklearn.cluster
 #
-
+ 
 import sys
 import os
 import numpy as np
