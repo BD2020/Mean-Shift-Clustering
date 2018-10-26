@@ -182,7 +182,7 @@ print("survival_rates: ", survival_rates)
 # Note: MeanShift() algos will produce slightly diff.
 # results each time it's run
 
-# Example output:
+# Example output: 
 # survival_rates:  {0: 0.3780202650038971, 1: 0.8333333333333334, 2: 0.0}
 # so group #1 (0 - 2), shows the highest survival rate of 83% which is very good
 #
